@@ -13,7 +13,7 @@
 
 
 .container {
-  margin: 4.5%;
+  margin: auto;
   color: lightcyan;
   text-align: center
 }
@@ -27,14 +27,16 @@
   font-weight: 700;
 
 }
-
-
 body {
+  background: black;
+}
+
+/* body {
   background-image: url("clark-tibbs-367075-unsplash.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: 50% 90%;
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
  
-}  
+}    */

@@ -1,6 +1,16 @@
 html {
     background-color: #272a30;
 }
+
 body {
     background: #084A83;
+}
+
+@media(min-width: 700px) {
+    .container {
+        width:100%;
+    }
+    header {
+    display: none;
+    }
 }
