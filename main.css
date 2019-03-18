@@ -1,0 +1,32 @@
+.container {
+  margin: 4.5%;
+  color: lightcyan;
+  text-align: center
+}
+.nameHeadline {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 2em;
+ 
+  text-transform: uppercase;
+ 
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+body {
+  background-image: url("clark-tibbs-367075-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+
+} 
