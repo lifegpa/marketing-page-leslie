@@ -1,3 +1,3 @@
 
 
-TweenMax.to(".logo", 2, {x:770, backgroundColor:"black"});
+TweenMax.to(".logo", 1, {x:document.querySelector("#home").getBoundingClientRect().left-90, backgroundColor:"black"});

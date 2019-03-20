@@ -22,8 +22,11 @@
   font-weight: 700;
 }
 .logo {
+  position: absolute;
+  left: 20px;
   width: 70px;
   height: auto;
+  z-index: -10;
 }
 html {
   background-image: url("img/clark-tibbs-367075-unsplash.jpg");
@@ -46,9 +49,12 @@ img {
   color: lightcyan;
   text-align: center;
 }
-.aboutLogo {
+.logo {
+  position: absolute;
+  left: 20px;
   width: 70px;
   height: auto;
+  z-index: -10;
 }
 .carouselImg {
   display: none;

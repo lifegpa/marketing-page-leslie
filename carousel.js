@@ -44,5 +44,3 @@ class Slide {
     slides.forEach(function (slide) {
         return new Slide(slide);
     });
-//GSAP animations
-    TweenMax.to(".logo", 2, {x:770, backgroundColor:"black"});
