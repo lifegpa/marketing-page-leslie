@@ -46,6 +46,10 @@ img {
   color: lightcyan;
   text-align: center;
 }
+.aboutLogo {
+  width: 70px;
+  height: auto;
+}
 .carouselImg {
   display: none;
 }
