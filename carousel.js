@@ -15,7 +15,7 @@ class Slide {
         this.carouselImages[this.slideNumber].style.display = "none";
         this.currentSlide[this.slideNumber].style.display = "none";
         this.slideNumber++;
-        if (this.slideNumber > 3) {
+        if (this.slideNumber > 4) {
             this.slideNumber = 0;
         }
         this.carouselImages[this.slideNumber].style.display = "block";
@@ -28,7 +28,7 @@ class Slide {
         this.currentSlide[this.slideNumber].style.display = "none";
         this.slideNumber--;
         if (this.slideNumber < 0) {
-            this.slideNumber = 3;
+            this.slideNumber = 4;
         }
         this.carouselImages[this.slideNumber].style.display = "block";
          this.currentSlide[this.slideNumber].style.display = "block";

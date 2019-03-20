@@ -38,8 +38,9 @@ body {
   background: #084A83;
 }
 img {
-  width: 90%;
+  width: 50%;
   height: auto;
+  margin: auto;
 }
 .container {
   margin: auto;
