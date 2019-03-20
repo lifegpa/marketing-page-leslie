@@ -21,6 +21,10 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+.logo {
+  width: 70px;
+  height: auto;
+}
 html {
   background-image: url(/img/clark-tibbs-367075-unsplash.jpg);
   background-size: cover;
