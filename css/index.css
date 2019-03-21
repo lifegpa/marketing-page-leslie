@@ -73,6 +73,11 @@ body {
 #about {
   background: #343A40 !important;
 }
+.about-content {
+  border: 1px solid white;
+  padding: 1rem;
+  margin: 1rem;
+}
 .carouselImg {
   display: none;
 }
