@@ -40,6 +40,7 @@ body {
 }
 .greatImg {
   width: 100%;
+  position: relative;
 }
 .carouselImages {
   width: 50%;
@@ -65,6 +66,12 @@ body {
 #signUp {
   color: #343A40;
 }
+.navbar {
+  background: #343A40 !important;
+}
+#about {
+  background: #343A40 !important;
+}
 .carouselImg {
   display: none;
 }
@@ -77,6 +84,7 @@ div.carouselContent {
   justify-content: center;
   align-content: end;
   width: 50%;
+  margin: 0 10%;
 }
 .carouselImg {
   width: 100%;
