@@ -46,15 +46,10 @@ body {
   height: auto;
   margin: 0;
 }
-div.carouselContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: end;
-  width: 50%;
-}
-.carouselImg {
-  width: 100%;
+#about {
+  position: relative;
+  width: 60px;
+  height: 60px;
 }
 .container {
   margin: auto;
@@ -75,6 +70,16 @@ div.carouselContent {
 }
 .about .slide {
   display: none;
+}
+div.carouselContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: end;
+  width: 50%;
+}
+.carouselImg {
+  width: 100%;
 }
 footer {
   display: flex;
