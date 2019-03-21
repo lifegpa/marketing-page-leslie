@@ -36,16 +36,17 @@
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home
+            <a class="nav-link" href="index.html" id="home">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href=#>Sign Up</a>
+              <a class="nav-link" href=# id="signUp">Sign Up</a>
+            </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html" id="about">About</a>
           </li>
+         
         </ul>
       </div>
     </div>
@@ -53,7 +54,7 @@
 
   <div class="container about">
 
-    <img src="img/clark-tibbs-367075-unsplash.jpg" alt="Neon sign that says Do Something Great">
+    <img class="greatImg" src="img/clark-tibbs-367075-unsplash.jpg" alt="Neon sign that says Do Something Great">
     <div class="py-5">
 
       <h1 class="font-weight-light">The Life GPA team!! </h1>
@@ -73,8 +74,10 @@
         </div>
 
         <div class="carouselBtns">
-          <button class="previous">Previous</button>
-          <button class="next">Next</button>
+            <button type="button" class="btn btn-outline-light previous">Previous</button>
+
+            <button type="button" class="btn btn-outline-light next">Next</button>
+       
         </div>
 
 
