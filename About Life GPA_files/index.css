@@ -41,21 +41,10 @@ body {
 .greatImg {
   width: 100%;
 }
-.carouselImages {
+.carousel img {
   width: 50%;
   height: auto;
-  margin: 0;
-}
-div.carouselContent {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  width: 50%;
-}
-img.carouselImg {
-  width: 50%;
-  height: auto;
-  margin: 0;
+  margin: auto;
 }
 .container {
   margin: auto;

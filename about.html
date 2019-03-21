@@ -16,7 +16,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-   
+
   <link rel="stylesheet" href="css/index.css">
 
 </head>
@@ -41,12 +41,12 @@
             </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href=# id="signUp">Sign Up</a>
-            </li>
+            <a class="nav-link" href=# id="signUp">Sign Up</a>
+          </li>
           <li class="nav-item active">
             <a class="nav-link" href="about.html" id="about">About</a>
           </li>
-         
+
         </ul>
       </div>
     </div>
@@ -59,8 +59,11 @@
 
       <h1 class="font-weight-light">The Life GPA team!! </h1>
 
-      <div class="carousel">
-        <div class="carouselImages">
+      <div class="carousel" style="display: flex">
+        <div>
+
+        </div>
+        <div class="carouselImages ">
           <img src="img/jonathanheinz.jpg" alt="Picture of Jonathan, Project Leader" class="carouselImg" data-slide="1"
             style="display: block !important">
           <img src="img/leslie-rodriguez.jpg" alt="Picture of Leslie, UI Developer" class="carouselImg" data-slide="2">
@@ -68,50 +71,33 @@
           <img src="img/megan-jones.jpeg" alt="Picture of Megan, Front End Developer" class="carouselImg"
             data-slide="4">
           <img src="img/harry.jpeg" alt="Picture of Harrison, Back End Developer" class="carouselImg" data-slide="5">
-
-
-
         </div>
-
-        <div class="carouselBtns">
-            <button type="button" class="btn btn-outline-light previous">Previous</button>
-
-            <button type="button" class="btn btn-outline-light next">Next</button>
-       
-        </div>
-
 
         <div class="carouselContent">
-
           <section class="slide" data-slide="1" style="display: block !important">
             <h1>Jonathan Heinz</h1>
-            <p class="lead">Project Leader</p>
+            <p class="lead">Project Leader </p>
           </section>
-
           <section class="slide" data-slide="2">
             <h1>Leslie Rodriguez</h1>
             <p class="lead">UI Developer</p>
           </section>
-
           <section class="slide" data-slide="3">
             <h1>Leigh Martin</h1>
             <p class="lead">UI Developer</p>
           </section>
-
-
           <section class="slide" data-slide="4">
             <h1>Megan Jones</h1>
             <p class="lead">Front End</p>
           </section>
-
           <section class="slide" data-slide="5">
             <h1>Harrison Brock</h1>
             <p class="lead">Back End</p>
           </section>
-
-
-
-
+          <div class="carouselBtns">
+            <button type="button" class="btn btn-outline-light previous">Previous</button>
+            <button type="button" class="btn btn-outline-light next">Next</button>
+          </div>
         </div>
 
       </div>
@@ -130,7 +116,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
   <script src="about.js"></script>
   <script src="carousel.js"></script>
- 
+
 </body>
 
 </html>

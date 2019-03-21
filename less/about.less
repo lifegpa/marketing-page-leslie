@@ -1,18 +1,29 @@
 body {
     background: black;
 }
+
 .greatImg {
     width: 100%;
 }
-.carousel img {
+
+.carouselImages {
     width: 50%;
     height: auto;
-    margin: auto;
+    margin: 0;
 
-    // @media(min-width:500px) {
-    //     width: 90%;
-    //     height: auto
-    // }
+}
+
+div.carouselContent {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 50%;
+
+}
+
+img.carouselImg {
+    width: 50%;
+    .carouselImages;
 }
 
 .container {
@@ -20,13 +31,15 @@ body {
     color: lightcyan;
     text-align: center
 }
+
 .logo {
     position: absolute;
     left: 20px;
     width: 70px;
     height: auto;
-  
+
 }
+
 #signUp {
     color: @template-grey;
 }
