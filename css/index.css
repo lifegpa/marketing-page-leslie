@@ -49,13 +49,12 @@ body {
 div.carouselContent {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  justify-content: center;
+  align-content: end;
   width: 50%;
 }
-img.carouselImg {
-  width: 50%;
-  height: auto;
-  margin: 0;
+.carouselImg {
+  width: 100%;
 }
 .container {
   margin: auto;
